@@ -148,7 +148,7 @@ nav {
 
 /* screan responsive for mobile */
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 576px) {
     nav {
         flex-direction: column;
         justify-content: center;
@@ -156,11 +156,100 @@ nav {
     }
     .logo {
         text-align: center;
+        width: 100%;
+        padding: 20px 30px;
+        border: 1px solid #FF900E;
+        transition: all 0.3s ease;
+    }
+    .logo:hover {
+        transform: scale(1.1);
+        cursor: pointer;
+        box-shadow: 0 4px 6px rgba(209, 146, 20, 0.4),
+            0 8px 20px rgba(219, 89, 24, 0.2);
+
+    }
+    .navigation {
+        width: 100%;
     }
     .navigation ul {
         flex-direction: column;
+        text-align: center;
+        width: 100%;
+    }
+
+    .navigation ul li {
+        width: 100%;
+        border-bottom: 1px solid #FF900E;
+        padding: 20px 30px;
+        transition: all 0.3s ease;
+
+    }
+
+    .navigation ul li:hover
+    {
+
+        transform: scale(1.1);
+        cursor: pointer;
+        box-shadow: 0 4px 6px rgba(209, 146, 20, 0.4),
+            0 8px 20px rgba(219, 89, 24, 0.2);
+
     }
     .logo h1 {
-        font-size: 1rem;
+        font-size: 2rem;
     }
+}
+
+
+@media screen and (min-width: 576px) and (max-width: 768px) 
+{
+
+     nav {
+        flex-direction: column;
+        justify-content: center;
+        padding-top: -40px;
+    }
+    .logo {
+        text-align: center;
+        width: 100%;
+        padding: 20px 30px;
+        border: 1px solid #FF900E;
+        transition: all 0.3s ease;
+    }
+    .logo:hover {
+        transform: scale(1.1);
+        cursor: pointer;
+        box-shadow: 0 4px 6px rgba(209, 146, 20, 0.4),
+            0 8px 20px rgba(219, 89, 24, 0.2);
+
+    }
+    .navigation {
+        width: 100%;
+    }
+    .navigation ul {
+        flex-direction: column;
+        text-align: center;
+        width: 100%;
+    }
+
+    .navigation ul li {
+        width: 100%;
+        border-bottom: 1px solid #FF900E;
+        padding: 20px 30px;
+        transition: all 0.3s ease;
+
+    }
+
+    .navigation ul li:hover
+    {
+
+        transform: scale(1.1);
+        cursor: pointer;
+        box-shadow: 0 4px 6px rgba(209, 146, 20, 0.4),
+            0 8px 20px rgba(219, 89, 24, 0.2);
+
+    }
+    .logo h1 {
+        font-size: 2rem;
+    }
+
 }
