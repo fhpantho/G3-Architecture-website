@@ -264,6 +264,30 @@ nav {
 .fetureimage button h1 {
     margin-bottom: 30px;
 }
+.fact-container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.fact
+{
+    max-width: 540px;
+    margin-bottom: 100px;
+
+}
+
+.fact h1
+{
+    font-size: 3rem;
+    font-weight: bold;
+    color: #131313;
+    margin-bottom: 25px;
+}
+.fact p 
+{
+    font-weight:lighter;
+    color: #727272;
+}
 
 
 
@@ -372,6 +396,13 @@ nav {
         width: 100%;
         
     }
+    .fact
+    {
+
+        margin: 0 auto;
+        margin: 100px 0px;
+        text-align: center;
+    }
 
 
  
@@ -383,7 +414,7 @@ nav {
 
 
 
-
+/* screen for tablet */
 
 @media screen and (min-width: 576px) and (max-width: 768px) 
 {
@@ -465,6 +496,14 @@ nav {
         margin: 0;
         width: 100%;
 
+    }
+
+   .fact
+    {
+
+        margin: 0 auto;
+        margin: 100px 0px;
+        text-align: center;
     }
 
 }
