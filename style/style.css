@@ -7,10 +7,12 @@
 
 .body 
 {
+
     overflow: hidden;
 }
 
 .main {
+
     max-width: 1440px;
     margin: 0 auto;
 }
@@ -70,11 +72,14 @@
 
 header {
     padding: 50px 0px;
+    overflow-x: hidden;
 }
 .header-container
 {
+
     max-width:1440px;
     margin: 0 auto;
+    overflow-x: hidden;
 
 }
 
