@@ -10,6 +10,11 @@
     overflow: hidden;
 }
 
+.main {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
 /* shared style */
 
 .btn-primary
@@ -193,6 +198,90 @@ nav {
     margin-bottom: 25px;
 }
 
+.feture {
+    max-width: 1440px;
+    margin: 0 auto;
+    column-gap: 70px;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 130px;
+
+}
+
+.feture-details 
+{
+    margin-top: 40px;
+}
+
+.feture-details h1 {
+    font-size: 2rem;
+    padding:15px 21px;
+    color: #131313;
+    font-weight: bold;
+    border-left: 8px solid #FF900E;
+    margin-bottom: 25px;
+}
+
+.feture-details p {
+    color: #727272;
+    margin-bottom: 25px;
+}
+
+.feture-card
+{
+    padding: 35px;
+     box-shadow: 0 4px 6px rgba(134, 133, 132, 0.065),
+            0 8px 20px rgba(123, 122, 121, 0.035);
+
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 40px;
+}
+
+.feture-card h3 {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #131313;
+    margin-bottom: 10px;
+}
+.fetureimage
+{
+    width: 100%;
+}
+.fetureimage img 
+{
+
+        width: 100%;
+}
+
+
+.fetureimage button
+{
+    margin:-65px 0px 0px -50px;
+
+}
+
+.fetureimage button h1 {
+    margin-bottom: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* screan responsive for mobile */
 
 @media screen and (max-width: 576px) {
@@ -269,7 +358,31 @@ nav {
     {
         font-size: 16px;
     }
+    .feture 
+    {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 90%;
+        margin: 0 auto;
+    }
+        .fetureimage button 
+    {
+        margin: 0;
+        width: 100%;
+        
+    }
+
+
+ 
 }
+
+
+
+
+
+
+
 
 
 @media screen and (min-width: 576px) and (max-width: 768px) 
@@ -337,6 +450,21 @@ nav {
     }
     .feture-image {
         margin: 0 auto;
+    }
+
+    .feture 
+    {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 90%;
+        margin: 0 auto;
+    }
+    .fetureimage button 
+    {
+        margin: 0;
+        width: 100%;
+
     }
 
 }
